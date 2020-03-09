@@ -1,0 +1,49 @@
+.header {
+  padding-top: 48px;
+  padding-bottom: 48px;
+
+  &__menu {
+    @extend %list;
+    font-size: 24px;
+    margin-left: 164px;
+  }
+
+  &__logo {
+    img {
+      height: 64px;
+      width: auto;
+    }
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__menu-item {
+  }
+
+  &__menu-link {
+    color: inherit;
+    padding: 0 35px;
+    &--first {
+      padding-left: 0;
+    }
+    &--last {
+      padding-right: 0;
+    }
+  }
+
+  &--transparent {
+    background-color: transparent;
+    color: $white;
+  }
+
+  &--absolute {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}

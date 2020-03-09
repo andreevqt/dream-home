@@ -1,0 +1,26 @@
+%list {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+%center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%button {
+  background-color: transparent;
+  border: none;
+}
+
+body {
+  background-color: rgba(#000, 0.3);
+}
+
+.main-container {
+  padding-left: 150px;
+  padding-right: 150px;
+}

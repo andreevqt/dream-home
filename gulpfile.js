@@ -115,7 +115,7 @@ const js = () => {
 }
 
 const images = () => {
-  const filetypes = "{png,gif,jpg,jpeg}";
+  const filetypes = "{png,gif,jpg,jpeg,svg}";
   return merge(
     gulp
       .src([`./images/**/*.${filetypes}`, "!./images/**/*.gitignore"])
